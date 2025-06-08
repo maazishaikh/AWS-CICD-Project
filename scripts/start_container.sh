@@ -5,4 +5,4 @@ set -e
 docker pull maazishaikh/hotel-app:latest
 
 # Run the Docker image as a container
-docker run -dit -p 8070:80 maazishaikh/hotel-app
+docker run -dit -p 80:80 maazishaikh/hotel-app
